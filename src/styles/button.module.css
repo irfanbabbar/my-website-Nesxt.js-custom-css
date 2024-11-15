@@ -1,0 +1,29 @@
+/* styles/Button.module.css */
+
+.Button {
+    background-color: #d89a13;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Button:hover {
+    background-color: #d18e00;
+  }
+  
+  .style{
+    background-color: #d89a13;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }

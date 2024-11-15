@@ -1,0 +1,55 @@
+/* styles/Blog.module.css */
+
+.blog {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .blog h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .postList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .postCard {
+    background-color: #cbc9c9;
+    padding: 25px 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .postCard:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .postCard h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    color: #2a2727;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .readMore {
+    color: #f0a500;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .readMore:hover {
+    color: #d18e00;
+  }
+  
